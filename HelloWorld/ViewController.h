@@ -10,4 +10,16 @@
 
 @interface ViewController : UIViewController
 
+{
+    IBOutlet UITextField *txtName;
+    
+}
+
+
+@property (nonatomic, retain) UITextField *txtName;
+
+-(IBAction)btnClicked:(id)sender;
+
+
+
 @end
