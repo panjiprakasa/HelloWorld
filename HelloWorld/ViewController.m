@@ -22,7 +22,7 @@
     
     NSString *str = [[NSString alloc] initWithFormat:@"Hello, %@", txtName.text];
     
-    NSLog(@"Tambah NSLog nih....");
+    NSLog(@"Tambah NSLog 2 nih....");
     
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hello World" message:str delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"bisa",nil];
                           [alert show];
